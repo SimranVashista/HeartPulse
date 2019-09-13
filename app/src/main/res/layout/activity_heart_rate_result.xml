@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_heart_rate_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:background="#e30047"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="your result is:"
+            android:textColor="#000000"
+            android:textSize="45dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_send"
+                />
+
+        <TextView
+            android:id="@+id/HRR"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <ImageButton
+            android:id="@+id/SendHR"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            />
+
+</LinearLayout>
